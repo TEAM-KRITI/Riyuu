@@ -47,8 +47,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JoSPjg4d91QzMWNl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/vedfun")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+J1MH8p0QVqo5MjA0")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -92,11 +92,7 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://te.legra.ph/file/5fd13f2cc0d03bce9f7f2.jpg",
-                 "https://te.legra.ph/file/c15d01b3e6b40ea141dc9.jpg",
-                 "https://te.legra.ph/file/58b491b39cee854695fa9.jpg",
-                 "https://telegra.ph/file/17b5a312f5385556787e0.jpg",
-                 "https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg",
+START_IMG_URL = ["https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg",
                  "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"]
     
 PING_IMG_URL = getenv(
